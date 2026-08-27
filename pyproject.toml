@@ -24,6 +24,13 @@ dev = [
     "oq-zoo",
     "oqstack",
 ]
+dashboard = [
+    "streamlit>=1.62",
+    "plotly>=6.0",
+    "oq-core",
+    "oq-backtest",
+    "oq-data",
+]
 
 [tool.ruff]
 line-length = 100
